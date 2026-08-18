@@ -1,0 +1,15 @@
+# secrets — never commit
+.env
+
+# backend build output
+team-access-control/target/
+
+# frontend build output and dependencies
+client/node_modules/
+client/dist/
+
+# IDE / OS junk
+.idea/
+.vscode/
+*.iml
+.DS_Store
